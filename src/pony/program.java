@@ -10,9 +10,16 @@ public class program {
     public static void main(String[] args) {
         int a = (int) (100 * Math.random());
         int vv;
-        System.out.print(a);
+
+   /*    Bottle Bottle1 = new Bottle(0.6);
+        System.out.println("v:" + Bottle1.getVolume());
+        System.out.println("f:"+Bottle1.getFill());
+        Bottle1.addfill(0.7);
+        System.out.println("f:"+Bottle1.getFill());
+        Bottle1.removefill(0.1);
+        System.out.println("f:"+Bottle1.getFill());
         boolean b= true;
-        Scanner sc = new Scanner(System.in);
+      */  Scanner sc = new Scanner(System.in);
         while(b) {
             System.out.println(" Введите число");
             vv = sc.nextInt();
